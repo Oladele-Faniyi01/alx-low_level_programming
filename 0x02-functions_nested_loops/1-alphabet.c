@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_alphabe - check code
  *
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet = 'a';
 	while (alphabet <= 'z')
@@ -13,5 +13,4 @@ int main(void)
 	alphabet++;
 	}
 	putchar('\n');
-	return (0);
 }
